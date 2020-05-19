@@ -1,2 +1,2 @@
-# eihelper-swing
+# EIHelper-Swing
 EI Helper Java Swing implementation
