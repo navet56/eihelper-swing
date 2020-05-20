@@ -6,7 +6,7 @@ import view.AppView;
 /**
  * The type App model.
  */
-public class AppModel extends Observable<AppView> {
+public class AppModel extends Observable<AppView, AppModel> {
     private MenuPage actualPage;
 
     /**
