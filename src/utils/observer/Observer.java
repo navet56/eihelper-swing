@@ -11,10 +11,10 @@ import java.util.function.Consumer;
  * A class can implement the Observer interface when it wants to be informed of changes in observable objects.
  *
  * @param <T> A sub type of Observer, it allows to use methods of this T type.
- * @param <U> the type parameter
+ * @param <U> A sub type of Observable, it allows to use methods of this U type.
  */
 @FunctionalInterface
-public interface Observer<T extends Observer<T, U>, U extends Observable<T>> {
+public interface Observer<T extends Observer<T, U>, U extends Observable<T, U>> {
     /**
      * Update the whole state of the view. Generally used when big changes occurs or when the view starts to observe the model.
      *
