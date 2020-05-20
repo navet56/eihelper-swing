@@ -12,7 +12,7 @@ import java.net.URISyntaxException;
 public class Training extends JPanel {
 
     public Training() {
-
+        super(new GridLayout(2,2));
         final URI uri;
         try {
             uri = new URI("https://www.youtube.com/watch?v=Rler3wwQBfw");
@@ -22,6 +22,7 @@ public class Training extends JPanel {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
+
     }
 
     private static void open(URI uri) {

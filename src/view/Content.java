@@ -31,5 +31,6 @@ public class Content extends JPanel {
      */
     public void switchPage(MenuPage menuPage) {
         ((CardLayout) this.getLayout()).show(this, menuPage.name());
+
     }
 }

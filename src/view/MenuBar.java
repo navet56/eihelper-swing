@@ -28,7 +28,7 @@ public class MenuBar extends JPanel {
         chatButton.addActionListener(appController.getChatListener());
         trainingButton.addActionListener(appController.getTrainingListener());
 
-        this.setBackground(new Color(100,12,255));
+        this.setBackground(new Color(80,00,200));
         this.add(mapButton);
         this.add(planningButton);
         this.add(chatButton);

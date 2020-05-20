@@ -76,8 +76,6 @@ public class ImageComponent {
      * @return the label containing the image
      */
     public JLabel getAsLabel() {
-        JLabel label = new JLabel();
-        label.setIcon(this.miniature);
-        return label;
+        return new JLabel(this.miniature);
     }
 }
