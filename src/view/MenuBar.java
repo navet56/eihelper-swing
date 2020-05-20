@@ -5,7 +5,7 @@ import view.components.ImageComponent;
 
 import javax.swing.JButton;
 import javax.swing.JPanel;
-import java.awt.GridLayout;
+import java.awt.*;
 
 /**
  * The type Menu bar.
@@ -28,6 +28,7 @@ public class MenuBar extends JPanel {
         chatButton.addActionListener(appController.getChatListener());
         trainingButton.addActionListener(appController.getTrainingListener());
 
+        this.setBackground(new Color(100,12,255));
         this.add(mapButton);
         this.add(planningButton);
         this.add(chatButton);

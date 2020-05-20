@@ -15,6 +15,7 @@ public class Main {
         AppModel appModel = new AppModel();
         AppController appController = new AppController(appModel);
         AppView appView = new AppView(appController);
+        appView.setVisible(true);
         appModel.addObserver(appView);
     }
 }
