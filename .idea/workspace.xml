@@ -19,22 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="Core review">
-      <change afterPath="$PROJECT_DIR$/src/view/TopBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/content/Settings.java" afterDir="false" />
+    <list default="true" id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="Added TopBar (and code opti)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/agenda_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/agenda_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/cam_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/cam_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/chat_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/chat_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/place_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/place_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/settings_black_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/settings_black_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/settings_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eihelper-swing/view/images/settings_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AppView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/agenda_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/agenda_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/cam_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/cam_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/chat_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/chat_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/conceptionobjet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/place_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/place_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/settings_black_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/settings_black_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/images/settings_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/images/settings_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AppModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AppModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/content/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/Training.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590002205418</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added TopBar (and code opti)">
+      <created>1590004123960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590004123960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,33 +153,34 @@
     <MESSAGE value="help" />
     <MESSAGE value="AppView is now executable" />
     <MESSAGE value="Core review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Core review" />
+    <MESSAGE value="Added TopBar (and code opti)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TopBar (and code opti)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2" timestamp="1589992124517">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992124517" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1590003952886">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1590005195855">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165145" />
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590003952886" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1590003952886">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1590005195855">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590003952886" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1590003952886">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1590005195855">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590003952886" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1590003952886">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1590005195855">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590003952886" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
     <state width="1874" height="341" key="GridCell.Tab.1.bottom" timestamp="1589999406469">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -194,11 +197,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="341" key="GridCell.Tab.1.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1589999406469" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590002209532">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590004125685">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992125920" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590002209532" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590004125685" />
     <state x="632" y="433" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590000473204">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

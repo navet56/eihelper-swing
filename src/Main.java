@@ -5,7 +5,7 @@ import view.AppView;
 import javax.swing.*;
 
 /**
- * The type Main.
+ * Main class
  */
 public class Main {
     /**
@@ -17,6 +17,9 @@ public class Main {
         SwingUtilities.invokeLater(() -> initApp());
     }
 
+    /**
+     * Allows to start the app (Model init, Controller init and then JFrame init)
+     */
     private static void initApp(){
         AppModel appModel = new AppModel();
         AppController appController = new AppController(appModel);

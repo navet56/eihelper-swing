@@ -13,7 +13,7 @@ public class AppModel extends Observable<AppView, AppModel> {
      * Instantiates a new App model.
      */
     public AppModel() {
-        this.actualPage = MenuPage.PLANNING;
+        this.actualPage = MenuPage.TRAINING;
     }
 
     /**
