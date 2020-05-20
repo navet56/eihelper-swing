@@ -31,6 +31,8 @@ public class AppView extends JFrame implements Observer<AppView, AppModel> {
 
         this.menuBar = new MenuBar(this.appController);
         this.content = new Content();
+
+        this.add(this.menuBar, BorderLayout.SOUTH);
     }
 
     /**
