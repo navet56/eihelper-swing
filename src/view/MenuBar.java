@@ -18,10 +18,10 @@ public class MenuBar extends JPanel {
      */
     public MenuBar(AppController appController) {
         this.setLayout(new GridLayout(1, 4));
-        JButton mapButton = new ImageComponent("/view/images/map.png").getAsButton();
-        JButton planningButton = new ImageComponent("/view/images/planning.png").getAsButton();
-        JButton chatButton = new ImageComponent("/view/images/chat.png").getAsButton();
-        JButton trainingButton = new ImageComponent("/view/images/training.png").getAsButton();
+        JButton mapButton = new ImageComponent("/view/images/place_icon.png").getAsButton();
+        JButton planningButton = new ImageComponent("/view/images/agenda_icon.png").getAsButton();
+        JButton chatButton = new ImageComponent("/view/images/chat_icon.png").getAsButton();
+        JButton trainingButton = new ImageComponent("/view/images/cam_icon.png").getAsButton();
 
         mapButton.addActionListener(appController.getMapListener());
         planningButton.addActionListener(appController.getPlanningListener());
