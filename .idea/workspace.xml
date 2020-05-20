@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cB4w24RWrCHA43OE4yD5LK0BWt" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="eihelper-swing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="" />
+      <created>1589988887359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589988887359</updated>
+      <workItem from="1589988892008" duration="1278000" />
+    </task>
+    <task id="LOCAL-00001" summary="help">
+      <created>1589992124675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589992124675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="help" />
+    <option name="LAST_COMMIT_MESSAGE" value="help" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2" timestamp="1589992124517">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992124517" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1589989165145">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165145" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1589989165144">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1589989165144">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1589989165144">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1589989165144" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1589992125920">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992125920" />
+    <state x="731" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589989071306">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="731" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1589989071306" />
+  </component>
+</project>
