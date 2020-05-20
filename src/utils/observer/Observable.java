@@ -20,8 +20,9 @@ import java.util.function.Consumer;
  * When an observable object is newly created, its set of observers is empty.
  *
  * @param <T> A sub type of Observer, it allows to use methods of this T type.
+ * @param <U> A sub type of Observable, it allows to use methods of this U type.
  */
-public abstract class Observable<T extends Observer<T>> {
+public abstract class Observable<T extends Observer<T, U>, U extends Observable<T, U>> {
     /**
      * The list of observers
      */
