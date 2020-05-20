@@ -1,10 +1,7 @@
 package view;
 
 import model.MenuPage;
-import view.content.Chat;
-import view.content.Map;
-import view.content.Planning;
-import view.content.Training;
+import view.content.*;
 
 import javax.swing.JPanel;
 import java.awt.CardLayout;
@@ -22,6 +19,7 @@ public class Content extends JPanel {
         this.add(new Planning(), MenuPage.PLANNING.name());
         this.add(new Chat(), MenuPage.CHAT.name());
         this.add(new Training(), MenuPage.TRAINING.name());
+        this.add(new Settings(), MenuPage.SETTINGS.name());
     }
 
     /**

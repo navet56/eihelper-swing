@@ -15,6 +15,7 @@ public class AppView extends JFrame implements Observer<AppView, AppModel> {
     private final AppController appController;
     private final Content content;
     private final MenuBar menuBar;
+    private final TopBar topBar;
 
     /**
      * Instantiates a new App view.
@@ -29,9 +30,12 @@ public class AppView extends JFrame implements Observer<AppView, AppModel> {
         this.setResizable(false);
         this.getContentPane().setLayout(new BorderLayout());
 
+        this.topBar = new TopBar(this.appController);
         this.menuBar = new MenuBar(this.appController);
         this.content = new Content();
 
+        this.add(this.topBar, BorderLayout.NORTH);
+        this.add(this.content, BorderLayout.CENTER);
         this.add(this.menuBar, BorderLayout.SOUTH);
     }
 

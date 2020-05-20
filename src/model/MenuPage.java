@@ -19,5 +19,9 @@ public enum MenuPage {
     /**
      * Training menu page.
      */
-    TRAINING
+    TRAINING,
+    /**
+     * Settings page
+     */
+    SETTINGS
 }
