@@ -2,6 +2,7 @@ package view;
 
 import controller.AppController;
 import model.AppModel;
+import model.MenuPage;
 import utils.observer.Observer;
 
 import javax.swing.JFrame;
@@ -44,7 +45,9 @@ public class AppView extends JFrame implements Observer<AppView, AppModel> {
      */
     @Override
     public void updateEverything(AppModel observable) {
-        this.content.switchPage(observable.getActualPage());
+        MenuPage menuPage = observable.getActualPage();
+        this.content.switchPage(menuPage);
+        this.topBar.updatePage(menuPage);
 
         this.revalidate();
         this.repaint();
