@@ -1,7 +1,11 @@
 package view;
 
 import model.MenuPage;
-import view.content.*;
+import view.content.Chat;
+import view.content.Map;
+import view.content.Planning;
+import view.content.Settings;
+import view.content.Training;
 
 import javax.swing.JPanel;
 import java.awt.CardLayout;
@@ -29,6 +33,5 @@ public class Content extends JPanel {
      */
     public void switchPage(MenuPage menuPage) {
         ((CardLayout) this.getLayout()).show(this, menuPage.name());
-
     }
 }
