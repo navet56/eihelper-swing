@@ -20,20 +20,25 @@ public class Training extends JPanel {
 
         JPanel categoryPanel = new JPanel();
         categoryPanel.setLayout(new BoxLayout(categoryPanel, BoxLayout.PAGE_AXIS));
-        categoryPanel.add(new CategoryComponent("Activités nautiques"));
+
+        categoryPanel.add(new CategoryComponent(" "));
+        categoryPanel.add(new CategoryComponent("Activités maritimes"));
+        categoryPanel.add(new CategoryComponent("Course"));
+        categoryPanel.add(new CategoryComponent("Echauffements et étirements"));
+        categoryPanel.add(new CategoryComponent("Repassage"));
+        categoryPanel.add(new CategoryComponent("Alimentation"));
         categoryPanel.add(new CategoryComponent("Tout"));
-        categoryPanel.add(new CategoryComponent("Autre"));
-        categoryPanel.add(new CategoryComponent("Autre"));
-        categoryPanel.add(new CategoryComponent("Autre"));
-        categoryPanel.add(new CategoryComponent("Autre"));
-        categoryPanel.add(new CategoryComponent("Autre"));
+
 
         JPanel suggestionPanel = new JPanel(new GridLayout(1,3));
-        JButton videoButton = (new ImageComponent("/view/images/video.jpg", 520, 250)).getAsButton();
+        JButton videoButton = (new ImageComponent("/view/images/video.png", 480, 250)).getAsButton();
         JPanel arrowW = new JPanel(new BorderLayout());
         arrowW.add(new ImageComponent("/view/images/arrow_icon_west.png").getAsButton(), BorderLayout.EAST);
         suggestionPanel.add(arrowW);
-        suggestionPanel.add(videoButton);
+        JPanel videoPanel = new JPanel(new BorderLayout());
+        videoPanel.add(videoButton, BorderLayout.CENTER);
+        videoPanel.add(new JLabel("<html><centered>Entrainement repassage extrème</centered></html>"), BorderLayout.SOUTH);
+        suggestionPanel.add(videoPanel);
         JPanel arrowE = new JPanel(new BorderLayout());
         arrowE.add(new ImageComponent("/view/images/arrow_icon_east.png").getAsButton(), BorderLayout.WEST);
         suggestionPanel.add(arrowE);
@@ -42,7 +47,7 @@ public class Training extends JPanel {
         this.add(suggestionPanel, BorderLayout.NORTH);
 
         try {
-            URI uri = new URI("https://www.youtube.com/watch?v=Rler3wwQBfw");
+            URI uri = new URI("https://www.youtube.com/watch?v=njHE4S-HD3I");
             videoButton.addActionListener(e -> Training.open(uri));
         } catch (URISyntaxException e) {
             e.printStackTrace();
