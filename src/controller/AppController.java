@@ -21,6 +21,15 @@ public class AppController {
     }
 
     /**
+     * Gets previous page listener.
+     *
+     * @return the previous page listener
+     */
+    public ActionListener getPreviousPageListener() {
+        return e -> this.appModel.goPreviousPage();
+    }
+
+    /**
      * Gets chat listener.
      *
      * @return the chat listener

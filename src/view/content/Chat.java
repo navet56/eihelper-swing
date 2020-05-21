@@ -5,12 +5,15 @@ import view.components.ImageComponent;
 
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
-import java.awt.*;
+import java.awt.BorderLayout;
 
 /**
  * The type Chat.
  */
 public class Chat extends JPanel {
+    /**
+     * Instantiates a new Chat.
+     */
     public Chat() {
         this.setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
         this.add(new ChatMessage("Annonces", "Vous", "Désolé", "14:46", "/view/images/annonces.png"));

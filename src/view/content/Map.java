@@ -8,8 +8,10 @@ import javax.swing.JPanel;
  * The Map JPanel
  */
 public class Map extends JPanel {
-    public Map(){
+    /**
+     * Instantiates a new Map.
+     */
+    public Map() {
         this.add((new ImageComponent("/view/images/map.png")).getAsLabel());
     }
-
 }

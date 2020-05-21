@@ -15,11 +15,12 @@ import java.awt.GridLayout;
 public class ChatMessage extends JPanel {
     /**
      * ChatMessage contructor
-     * @param title Group title
-     * @param lastSender last sender name
+     *
+     * @param title       Group title
+     * @param lastSender  last sender name
      * @param lastMessage last message like "Hello everyone"
-     * @param hour hour of the message like "14:46"
-     * @param imagePath the image path like "view/images/test_image.png"
+     * @param hour        hour of the message like "14:46"
+     * @param imagePath   the image path like "view/images/test_image.png"
      */
     public ChatMessage(String title, String lastSender, String lastMessage, String hour, String imagePath) {
         this.setMaximumSize(new Dimension(580,100));
