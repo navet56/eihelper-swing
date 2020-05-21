@@ -16,6 +16,7 @@ public class ChatMessage extends JPanel {
         this.add(new ImageComponent("/view/images/login_icon.png", 50, 50).getAsLabel(), BorderLayout.WEST);
 
         JPanel rightPanel = new JPanel();
+        rightPanel.setPreferredSize(new Dimension(440, 70));
         rightPanel.setLayout(new GridLayout(2, 1));
 
         JPanel titlePanel = new JPanel();
@@ -36,6 +37,6 @@ public class ChatMessage extends JPanel {
 
         this.add(rightPanel, BorderLayout.EAST);
 
-        this.setBorder(BorderFactory.createMatteBorder(1,0,1,0, Color.LIGHT_GRAY));
+        this.setBorder(BorderFactory.createMatteBorder(0,0,1,0, Color.LIGHT_GRAY));
     }
 }
