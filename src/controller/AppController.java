@@ -52,8 +52,8 @@ public class AppController {
      *
      * @return the training listener
      */
-    public ActionListener getTrainingListener() {
-        return e -> this.appModel.setActualPage(MenuPage.TRAINING);
+    public ActionListener getSettingsListener() {
+        return e -> this.appModel.setActualPage(MenuPage.SETTINGS);
     }
 
     /**
@@ -61,9 +61,7 @@ public class AppController {
      *
      * @return the training listener
      */
-    public ActionListener getSettingsListener() {
-        return e -> this.appModel.setActualPage(MenuPage.SETTINGS);
+    public ActionListener getTrainingListener() {
+        return e -> this.appModel.setActualPage(MenuPage.TRAINING);
     }
-
-
 }
