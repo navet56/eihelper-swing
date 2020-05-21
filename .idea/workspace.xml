@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="Added TopBar (and code opti)">
+    <list default="true" id="689cf684-8a4b-4daa-a4ba-934861d27c14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/AppModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AppModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eihelper-swing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eihelper-swing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/content/Planning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/Planning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/content/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/content/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/content/Training.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590004123960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change pages">
+      <created>1590056317872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590056317872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,32 +162,37 @@
     <MESSAGE value="AppView is now executable" />
     <MESSAGE value="Core review" />
     <MESSAGE value="Added TopBar (and code opti)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TopBar (and code opti)" />
+    <MESSAGE value="Change pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change pages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2" timestamp="1589992124517">
+    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2" timestamp="1590056317720">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992124517" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1590055946803">
+    <state x="525" y="121" width="860" height="871" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1590056317720" />
+    <state x="582" y="300" width="735" height="520" key="FileChooserDialogImpl" timestamp="1590056628471">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1590055946803" />
+    <state x="582" y="300" width="735" height="520" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590056628471" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1590057095145">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1590057095145" />
     <state width="1874" height="276" key="GridCell.Tab.0.bottom/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1590055946802">
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1590057095144">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1590055946802" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1590057095144" />
     <state width="1874" height="276" key="GridCell.Tab.0.center/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1590055946801">
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1590057095143">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1590055946801" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1590057095143" />
     <state width="1874" height="276" key="GridCell.Tab.0.left/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1590055946803">
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1590057095144">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1590055946803" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1590057095144" />
     <state width="1874" height="276" key="GridCell.Tab.0.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590005195855" />
     <state width="1874" height="341" key="GridCell.Tab.1.bottom" timestamp="1589999406469">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -192,10 +210,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="341" key="GridCell.Tab.1.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1589999406469" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590004125685">
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1590056631692">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1589992125920" />
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590056631692" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590056320212">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1590056320212" />
     <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1590004125685" />
     <state x="632" y="433" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590000473204">
       <screen x="0" y="27" width="1920" height="1053" />
