@@ -10,10 +10,10 @@ import java.awt.Dimension;
 import java.awt.GridLayout;
 
 public class ChatMessage extends JPanel {
-    public ChatMessage(String title, String lastSender, String lastMessage, String hour) {
+    public ChatMessage(String title, String lastSender, String lastMessage, String hour, String imagePath) {
         this.setMaximumSize(new Dimension(500,70));
         this.setLayout(new BorderLayout());
-        this.add(new ImageComponent("/view/images/login_icon.png", 50, 50).getAsLabel(), BorderLayout.WEST);
+        this.add(new ImageComponent(imagePath, 50, 50).getAsLabel(), BorderLayout.WEST);
 
         JPanel rightPanel = new JPanel();
         rightPanel.setPreferredSize(new Dimension(440, 70));
