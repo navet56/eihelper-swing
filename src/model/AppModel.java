@@ -42,7 +42,7 @@ public class AppModel extends Observable<AppView, AppModel> {
      * @param actualPage the actual page
      */
     public void setActualPage(MenuPage actualPage) {
-
         this.actualPage = actualPage;
+        this.notifyUpdateEverything();
     }
 }

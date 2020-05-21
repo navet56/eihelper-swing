@@ -14,7 +14,7 @@ public class Main {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> initApp());
+        SwingUtilities.invokeLater(Main::initApp);
     }
 
     /**
