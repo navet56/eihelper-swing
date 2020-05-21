@@ -14,11 +14,14 @@ import java.net.URISyntaxException;
  * Training JPanel
  */
 public class Training extends JPanel {
+    /**
+     * Instantiates a new Training.
+     */
     public Training() {
         this.setLayout(new GridLayout(1, 1));
         try {
-            URI uri = new URI("https://www.youtube.com/watch?v=Rler3wwQBfw");
-            JButton videoButton = (new ImageComponent("/view/images/video.jpg", 500, 310)).getAsButton();
+            URI uri = new URI("https://www.youtube.com/watch?v=njHE4S-HD3I");
+            JButton videoButton = (new ImageComponent("/view/images/video.png", 724, 540)).getAsButton();
             videoButton.addActionListener(e -> Training.open(uri));
 
             this.add(videoButton);

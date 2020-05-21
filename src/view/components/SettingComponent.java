@@ -1,12 +1,20 @@
 package view.components;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
 
+/**
+ * The type Setting component.
+ */
 public class SettingComponent extends JPanel {
     /**
      * SettingComponent constructor
-     * @param title title of the setting component like "Login"
+     *
+     * @param title     title of the setting component like "Login"
      * @param imagePath the image path like "view/images/test_image.png"
      */
     public SettingComponent(String title, String imagePath) {

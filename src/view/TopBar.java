@@ -3,9 +3,10 @@ package view;
 import controller.AppController;
 import view.components.ImageComponent;
 
-import javax.swing.*;
-import javax.swing.border.Border;
-import java.awt.*;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import java.awt.Color;
 
 /**
  * The type Menu bar.
@@ -23,6 +24,7 @@ public class TopBar extends JPanel {
         JButton backButton = new ImageComponent("/view/images/back_icon.png").getAsButton();
 
         settingsButton.addActionListener(appController.getSettingsListener());
+        backButton.addActionListener(appController.getPreviousPageListener());
 
         this.setBackground(new Color(255,255,255));
 

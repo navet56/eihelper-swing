@@ -11,6 +11,9 @@ import java.util.Properties;
  * The type Planning.
  */
 public class Planning extends JPanel {
+    /**
+     * Instantiates a new Planning.
+     */
     public Planning() {
         this.setLayout(new GridLayout(1, 1));
         UtilDateModel model = new UtilDateModel();
