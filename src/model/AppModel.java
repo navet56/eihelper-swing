@@ -16,7 +16,7 @@ public class AppModel extends Observable<AppView, AppModel> {
      * Instantiates a new App model.
      */
     public AppModel() {
-        this.breadcrumb.add(MenuPage.MAP);
+        this.breadcrumb.add(MenuPage.PLANNING);
     }
 
     /**

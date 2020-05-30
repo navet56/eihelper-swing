@@ -41,7 +41,8 @@ public class AppView extends JFrame implements Observer<AppView, AppModel> {
     }
 
     /**
-     * Update the whole state of the view. Generally used when big changes occurs or when the view starts to observe the model.
+     * Update the whole state of the view. Generally used when big changes occurs
+     * or when the view starts to observe the model.
      */
     @Override
     public void updateEverything(AppModel observable) {
