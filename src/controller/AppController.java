@@ -44,7 +44,7 @@ public class AppController {
      * @return the map listener
      */
     public ActionListener getMapListener() {
-        return e -> this.appModel.setActualPage(MenuPage.MAP);
+        return e -> this.appModel.setActualPage(MenuPage.CARTE);
     }
 
     /**
@@ -62,7 +62,7 @@ public class AppController {
      * @return the training listener
      */
     public ActionListener getSettingsListener() {
-        return e -> this.appModel.setActualPage(MenuPage.SETTINGS);
+        return e -> this.appModel.setActualPage(MenuPage.PARAMETRES);
     }
 
     /**
@@ -71,6 +71,6 @@ public class AppController {
      * @return the training listener
      */
     public ActionListener getTrainingListener() {
-        return e -> this.appModel.setActualPage(MenuPage.TRAINING);
+        return e -> this.appModel.setActualPage(MenuPage.ENTRAINEMENT);
     }
 }

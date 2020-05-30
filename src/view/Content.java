@@ -19,11 +19,11 @@ public class Content extends JPanel {
      */
     public Content() {
         this.setLayout(new CardLayout());
-        this.add(new Map(), MenuPage.MAP.name());
+        this.add(new Map(), MenuPage.CARTE.name());
         this.add(new Planning(), MenuPage.PLANNING.name());
         this.add(new Chat(), MenuPage.CHAT.name());
-        this.add(new Training(), MenuPage.TRAINING.name());
-        this.add(new Settings(), MenuPage.SETTINGS.name());
+        this.add(new Training(), MenuPage.ENTRAINEMENT.name());
+        this.add(new Settings(), MenuPage.PARAMETRES.name());
     }
 
     /**

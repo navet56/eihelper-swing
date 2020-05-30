@@ -16,7 +16,7 @@ public class AppModel extends Observable<AppView, AppModel> {
      * Instantiates a new App model.
      */
     public AppModel() {
-        this.breadcrumb.add(MenuPage.PLANNING);
+        this.breadcrumb.add(MenuPage.CARTE);
     }
 
     /**
@@ -47,7 +47,7 @@ public class AppModel extends Observable<AppView, AppModel> {
      */
     public MenuPage getActualPage() {
         if (this.breadcrumb.isEmpty()) {
-            this.breadcrumb.add(MenuPage.MAP);
+            this.breadcrumb.add(MenuPage.CARTE);
         }
         return this.breadcrumb.get(this.breadcrumb.size() - 1);
     }

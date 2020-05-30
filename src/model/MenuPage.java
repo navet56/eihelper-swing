@@ -7,7 +7,7 @@ public enum MenuPage {
     /**
      * Map menu page.
      */
-    MAP,
+    CARTE,
     /**
      * Planning menu page.
      */
@@ -19,9 +19,9 @@ public enum MenuPage {
     /**
      * Training menu page.
      */
-    TRAINING,
+    ENTRAINEMENT,
     /**
      * Settings page
      */
-    SETTINGS
+    PARAMETRES
 }

@@ -43,6 +43,11 @@ public class TopBar extends JPanel {
         this.add(settingsButton, BorderLayout.EAST);
     }
 
+    /**
+     * Update page.
+     *
+     * @param menuPage the menu page
+     */
     public void updatePage(MenuPage menuPage) {
         this.pageName.setText("<html><h1>" + menuPage.name() + "</h1></html>");
     }

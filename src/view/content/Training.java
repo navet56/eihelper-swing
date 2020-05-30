@@ -2,11 +2,16 @@ package view.content;
 
 import view.components.CategoryComponent;
 import view.components.ImageComponent;
-import view.components.SettingComponent;
 
-import javax.swing.*;
-import javax.swing.border.Border;
-import java.awt.*;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import java.awt.Desktop;
+import java.awt.Dimension;
+import java.awt.GridLayout;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -15,13 +20,16 @@ import java.net.URISyntaxException;
  * Training JPanel
  */
 public class Training extends JPanel {
+    /**
+     * Instantiates a new Training.
+     */
     public Training() {
         this.setLayout(new BorderLayout());
 
         JPanel categoryPanel = new JPanel();
         categoryPanel.setLayout(new BoxLayout(categoryPanel, BoxLayout.PAGE_AXIS));
 
-        categoryPanel.add(new CategoryComponent(" "));
+        categoryPanel.add(Box.createRigidArea(new Dimension(0, 20)));
         categoryPanel.add(new CategoryComponent("Activités maritimes"));
         categoryPanel.add(new CategoryComponent("Course"));
         categoryPanel.add(new CategoryComponent("Echauffements et étirements"));
@@ -29,15 +37,14 @@ public class Training extends JPanel {
         categoryPanel.add(new CategoryComponent("Alimentation"));
         categoryPanel.add(new CategoryComponent("Tout"));
 
-
-        JPanel suggestionPanel = new JPanel(new GridLayout(1,3));
+        JPanel suggestionPanel = new JPanel(new GridLayout(1, 3));
         JButton videoButton = (new ImageComponent("/view/images/video.png", 480, 250)).getAsButton();
         JPanel arrowW = new JPanel(new BorderLayout());
         arrowW.add(new ImageComponent("/view/images/arrow_icon_west.png").getAsButton(), BorderLayout.EAST);
         suggestionPanel.add(arrowW);
         JPanel videoPanel = new JPanel(new BorderLayout());
         videoPanel.add(videoButton, BorderLayout.CENTER);
-        videoPanel.add(new JLabel("<html><centered>Entrainement repassage extrème</centered></html>"), BorderLayout.SOUTH);
+        videoPanel.add(new JLabel("<html><center>Entrainement au repassage extrême</center></html>"), BorderLayout.SOUTH);
         suggestionPanel.add(videoPanel);
         JPanel arrowE = new JPanel(new BorderLayout());
         arrowE.add(new ImageComponent("/view/images/arrow_icon_east.png").getAsButton(), BorderLayout.WEST);
